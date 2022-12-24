@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 2;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+div {
+    color: black;
+    margin-top: 20px;
+}
+
+#btn {
+    background: #ce99d6;
+    color: white;
+    font-size: 23px;
+    height: 39px;
+    width: 20%;
+    margin-left: 39%;
+    font-family: monospace;
+}
+
+strong {
+    margin-left: 44%;
+}
+
+#btn:active {
+    background: black;
+}
